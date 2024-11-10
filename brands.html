@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Brands Section</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="animate.css" />
+  </head>
+  <body>
+    <header class="bg-black">
+      <nav>
+        <ul class="sidebar">
+          <li id="cancel" class="transition" onclick="hideSideBar()">X</li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li class="media">
+            OUR BRANDS
+            <div class="dot" onclick="openBrands()">...</div>
+            <span onclick="closeBrands()" id="x">X</span>
+          </li>
+
+          <ul class="hidden-nav brands">
+            <li><a href="">Pasta</a></li>
+            <li><a href="">Noodles</a></li>
+            <li><a href="">ball-food</a></li>
+            <li><a href="">Flour</a></li>
+            <li><a href="">Sugar</a></li>
+            <li><a href="">Cereal</a></li>
+            <li><a href="">Oil And Spreads</a></li>
+          </ul>
+
+          <li><a href="">RECIPES</a></li>
+
+          <li class="media">
+            MEDIA
+            <div class="dots" onclick="openMedia()">...</div>
+            <span onclick="closeMedia()" id="ex">X</span>
+          </li>
+
+          <ul class="hidden-nav medias">
+            <li><a href="">Gallery</a></li>
+          </ul>
+
+          <li><a href="">STORE LOCATOR</a></li>
+
+          <li class="media">
+            CONTACT US
+            <div class="dotes" onclick="openContact()">...</div>
+            <span onclick="closeContact()" id="exs">X</span>
+          </li>
+
+          <ul class="hidden-nav contact">
+            <li><a href="">Other enquires</a></li>
+          </ul>
+
+          <li><a href="">BLOG</a></li>
+        </ul>
+
+        <div class="flexes heads">
+          <a href=""
+            ><img
+              class="logo"
+              src="./img/golden-penny-logo.png"
+              alt="Golden Penny Logo"
+          /></a>
+
+          <div class="menu-wrap menu" onclick="showSideBar()">
+            <h2>Menu</h2>
+            <div class="menu-bar">
+              <span class="line first"></span>
+              <span class="line second"></span>
+              <span class="line third"></span>
+            </div>
+          </div>
+        </div>
+        <h1 class="our">Our Brands</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="top">
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+        <img src="./img/ham-burger.jpg" alt="" />
+      </section>
+
+      <section class="paras">
+        <p class="para h30">
+          Golden Penny products are consumed by millions of people daily, in
+          homes and restaurants across West Africa. Discover our range of
+          delicious, nutritious products.
+        </p>
+
+        <section class="third-sect">
+          <div class="gps relative1">
+            <h2 class="slidein">PASTA</h2>
+            <div class="flex food">
+              <img class="cfood" src="./img/food3.png" alt="" />
+              <div class="box brand">
+                <img
+                  class="spaghetti"
+                  src="./img/GP-Spaghetti-500g.png"
+                  alt="Spaghetti Image"
+                />
+                <p>Golden Penny Spaghetti</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="spaghetti"
+                  src="./img/GP-Spaghettini-500g.jpg"
+                  alt="Spaghettini image"
+                />
+                <p>Golden Penny Spaghettini</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="twist"
+                  src="./img/GP-Twist-200g-.jpg"
+                  alt="Twist Image"
+                />
+                <p>Golden Penny Pasta Twist</p>
+                <button><a href="">View Product</a></button>
+              </div>
+              <a class="view-a" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="gps relative1">
+            <h2 class="slidein">NOODLES</h2>
+            <div class="flex food gpn">
+              <img class="cfood" src="./img/noodle.png" alt="" />
+              <div class="box brand gpn-box">
+                <img
+                  class="mac gpjhhn-img"
+                  src="./img/Jollof-Hot-Hot-Image-thumb.jpg"
+                  alt="Spaghetti Image"
+                />
+                <p class="gpjhhn">Golden Penny Jollof Hot Hot Noodles</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand gpn-box">
+                <img
+                  class="mac gp"
+                  src="./img/noodle_goat_meat_sm.jpg"
+                  alt="Spaghettini image"
+                />
+                <p>Golden Penny Goat Meat Pepper Soup Noodles</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand gpn-box">
+                <img
+                  class="mac gp"
+                  src="./img/indomir-chicken-flavour-sm.jpg"
+                  alt="Twist Image"
+                />
+                <p>Golden Penny Chicken Noodles</p>
+                <button><a href="">View Product</a></button>
+              </div>
+              <a class="view-a" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="gps relative1">
+            <h2 class="slidein">BALL FOODS</h2>
+            <div class="flex food">
+              <img class="cfood" src="./img/ball-food.png" alt="" />
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/Golden-Penny-Semovita-2kg-thumb.jpg"
+                  alt="Spaghetti Image"
+                />
+                <p>Golden Penny Semovita</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/goldenvita-new-pack-1.jpg"
+                  alt="Spaghettini image"
+                />
+                <p>Golden Penny GoldenVita</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/GP-Garri-thumbnail.jpg"
+                  alt="Twist Image"
+                />
+                <p>Golden Penny Garri</p>
+                <button><a href="">View Product</a></button>
+              </div>
+              <a class="view-a" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="gps relative1">
+            <h2 class="slidein">OIL AND SPREADS</h2>
+            <div class="flex food">
+              <img class="cfood" src="./img/rice.png" alt="" />
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/Golden-Penny-Soya-Oil.jpg"
+                  alt="Spaghetti Image"
+                />
+                <p>Golden Penny Soya Oil</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/Golden-Penny-Vegetable-Oil.jpg"
+                  alt="Spaghettini image"
+                />
+                <p>Golden Penny Vegetable Oil</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/GP-Spread-thumb-1.jpg"
+                  alt="Twist Image"
+                />
+                <p>Golden Penny Spread</p>
+                <button><a href="">View Product</a></button>
+              </div>
+              <a class="view-a" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="gps relative1">
+            <h2 class="slidein">FLOUR</h2>
+            <div class="flex food">
+              <img class="cfood" src="./img/flour.png" alt="" />
+              <div class="box brand">
+                <img
+                  class="flour"
+                  src="./img/flour-prime-flour-small.jpg"
+                  alt="Spaghetti Image"
+                />
+                <p>Golden Penny Prime Flour</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="flour1"
+                  src="./img/EagleFlour.jpg"
+                  alt="Spaghettini image"
+                />
+                <p>Golden Penny Eagle Wheat Flour</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="flour"
+                  src="./img/flour-easy-bake-flour-small.jpg"
+                  alt="Twist Image"
+                />
+                <p>Golden Penny Easy Bake Flour</p>
+                <button><a href="">View Product</a></button>
+              </div>
+              <a class="view-a" href="#">VIEW MORE</a>
+            </div>
+          </div>
+
+          <div class="gps relative1">
+            <h2 class="slidein">SUGAR</h2>
+            <div class="flex food">
+              <img class="cfood" src="./img/sugar.png" alt="" />
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/Golden-Penny-Cube-Sugar-sm.jpg"
+                  alt="Twist Image"
+                />
+                <p>Cube Sugar</p>
+                <button><a href="">View Product</a></button>
+              </div>
+
+              <div class="box brand">
+                <img
+                  class="mac gp"
+                  src="./img/Golden-Penny-White-Sugar-sm.jpg"
+                  alt="Macaroni Image"
+                />
+                <p>Granulated Sugar</p>
+                <button><a href="">View Product</a></button>
+              </div>
+            </div>
+            <a class="view-a" href="">VIEW MORE</a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div class="flexs">
+        <div>
+          <h5>Disclaimer</h5>
+          <p>
+            Do not honour any request for payment to any personal account.
+            Contact us if you suspect any fraudlent activity or intention.
+          </p>
+        </div>
+
+        <div>
+          <h5>Reach Us</h5>
+          <ul>
+            <li><a href="">+2347056891000</a></li>
+            <li><a href="">+2347056892000</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Email</h5>
+          <ul>
+            <li>GOLDENPENNYFOODS@FMNPLC.COM</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Links</h5>
+          <ul>
+            <li><a href="">Our Brands</a></li>
+            <li><a href="">Recipes</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Corporate</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">The Board</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="center">
+        © 2020 FMN Plc. All rights Reserved | Privacy Policy | Cookies Policy |
+        Events Terms & Conditions
+      </div>
+    </footer>
+
+    <script>
+      function showSideBar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSideBar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+
+      function openBrands() {
+        const sidebar = document.querySelector(".brands");
+        const dot = document.querySelector(".dot");
+        const x = document.getElementById("x");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeBrands() {
+        const sidebar = document.querySelector(".brands");
+        const dot = document.querySelector(".dot");
+        const x = document.getElementById("x");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+
+      function openMedia() {
+        const sidebar = document.querySelector(".medias");
+        const dot = document.querySelector(".dots");
+        const x = document.getElementById("ex");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeMedia() {
+        const sidebar = document.querySelector(".medias");
+        const dot = document.querySelector(".dots");
+        const x = document.getElementById("ex");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+
+      function openContact() {
+        const sidebar = document.querySelector(".contact");
+        const dot = document.querySelector(".dotes");
+        const x = document.getElementById("exs");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeContact() {
+        const sidebar = document.querySelector(".contact");
+        const dot = document.querySelector(".dotes");
+        const x = document.getElementById("exs");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+
+      function pasta() {
+        const show = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const hide1 = document.querySelector(".ball-food");
+        const hide2 = document.querySelector(".oil-spread");
+        const hide3 = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.width = "100px";
+        decor.style.left = "2px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function noodles() {
+        const hide = document.querySelector(".pasta");
+        const show = document.querySelector(".noodle");
+        const hide1 = document.querySelector(".ball-food");
+        const hide2 = document.querySelector(".oil-spread");
+        const hide3 = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.width = "100px";
+        decor.style.left = "182px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function ballFood() {
+        const hide1 = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const show = document.querySelector(".ball-food");
+        const hide2 = document.querySelector(".oil-spread");
+        const hide3 = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+
+        decor.style.width = "100px";
+        decor.style.left = "380px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function oilAndSpread() {
+        const hide1 = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const hide2 = document.querySelector(".ball-food");
+        const show = document.querySelector(".oil-spread");
+        const hide3 = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.left = "580px";
+        decor.style.width = "150px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function flour() {
+        const hide1 = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const hide2 = document.querySelector(".ball-food");
+        const hide3 = document.querySelector(".oil-spread");
+        const show = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.width = "100px";
+        decor.style.left = "818px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function sugar() {
+        const hide1 = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const hide2 = document.querySelector(".ball-food");
+        const hide3 = document.querySelector(".oil-spread");
+        const hide4 = document.querySelector(".flour");
+        const show = document.querySelector(".sugar");
+        const hide5 = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.width = "100px";
+        decor.style.left = "990px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+
+      function cereal() {
+        const hide1 = document.querySelector(".pasta");
+        const hide = document.querySelector(".noodle");
+        const hide2 = document.querySelector(".ball-food");
+        const hide3 = document.querySelector(".oil-spread");
+        const hide5 = document.querySelector(".flour");
+        const hide4 = document.querySelector(".sugar");
+        const show = document.querySelector(".cereal");
+        const decor = document.querySelector(".pastas");
+        decor.style.width = "100px";
+        decor.style.left = "1162px";
+        hide.style.display = "none";
+        show.style.display = "flex";
+        hide1.style.display = "none";
+        hide2.style.display = "none";
+        hide3.style.display = "none";
+        hide4.style.display = "none";
+        hide5.style.display = "none";
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Element Property*/
+nav {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav li {
+  padding: 0 20px;
+}
+footer li {
+  padding: 10px 0;
+}
+nav a {
+  height: 100%;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all ease-in 0.55s;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+nav {
+  position: absolute;
+  z-index: 999;
+}
+nav h3 a {
+  color: red;
+  font-size: 30px;
+  padding: 10px;
+}
+.menu-bar {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 28px;
+  margin-top: 5px;
+}
+.line {
+  height: 2px;
+  background-color: #f80;
+  transition: all 0.5s ease;
+}
+.menu-wrap {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  margin: 10px 20px 0 0;
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  align-items: center;
+  overflow: hidden;
+}
+.head {
+  animation: disappear;
+  animation-timeline: view();
+}
+.head img {
+  width: 70%;
+  margin-left: 20px;
+}
+.locate {
+  padding: 40px;
+}
+/* About us Added Style*/
+.header {
+  position: absolute;
+  top: 260%;
+  z-index: -1;
+  left: 13%;
+  color: rgb(255, 255, 143);
+  font-size: 4em;
+}
+.our {
+  position: absolute;
+  top: 210%;
+  z-index: -1;
+  left: 40%;
+  color: rgb(255, 255, 143);
+  font-size: 3em;
+}
+.about {
+  background-color: #7ca43e;
+  margin-top: -10px;
+  padding: 20px 10px 40px 10px;
+  color: white;
+  width: 100%;
+}
+.wrapper {
+  position: absolute;
+  top: 10%;
+  padding-top: 350px;
+  width: 95%;
+  left: 2.5%;
+}
+.update {
+  margin-top: 40px;
+}
+.email h4 {
+  font-weight: 900;
+  margin-top: 50px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.email {
+  width: 100%;
+  background: url("./img/ham-burger.jpg");
+  height: 200px;
+  background-size: cover;
+  isolation: isolate;
+  overflow: hidden;
+}
+.else::before {
+  content: "";
+  position: absolute;
+  height: 200px;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(0deg, rgb(0 0 0/ 1), rgb(255 255 255/ 0.5));
+}
+.relative1 {
+  position: relative;
+}
+.relative1 h4 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #5a3d30;
+}
+.heads {
+  height: 80px;
+  background-color: black;
+}
+.heads .logo {
+  margin: 112px 0 0 40px;
+  width: 60%;
+}
+.menu {
+  margin-top: 14px;
+}
+.body {
+  background-image: url(./img/pasta-salad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300vh;
+  filter: brightness(20px);
+}
+.body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  height: 300vh;
+  background: linear-gradient(0deg, rgb(0 0 0/ 1), rgb(255 255 255/ 0));
+}
+.about2 {
+  background-color: white;
+  padding: 50px 10px 70px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 94%;
+  margin: 5px 20px 0 30px;
+}
+.about2 p {
+  width: 95%;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(74, 74, 74);
+}
+.about2 h3 {
+  font-weight: 900;
+  font-size: 19px;
+  width: 100%;
+  color: #5a3d30;
+}
+iframe {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+.about2 h2 {
+  margin-top: 40px;
+}
+.about2 h2 a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgb(124, 164, 62);
+}
+.heritage {
+  margin-right: 55px;
+}
+.p2 {
+  margin-top: 20px;
+}
+/*End of About us Added style*/
+
+/*Our Brands Added style*/
+.top {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+.top::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  height: 300px;
+  background: linear-gradient(0deg, rgb(0 0 0/ 0.5), rgb(255 255 255/ 0));
+}
+.top img {
+  width: 13.9%;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+}
+.para {
+  color: rgb(74, 74, 74);
+  font-size: 16px;
+  width: 100%;
+}
+.paras {
+  margin: 35px;
+}
+.gps {
+  width: 100% !important;
+}
+.gps h2 {
+  text-align: left !important;
+  margin: 40px 0 20px 0;
+  color: #5a3d30;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 38px;
+}
+.food {
+  background-color: rgb(250, 250, 232);
+  border: 1px solid #f4f7dc;
+  border-radius: 10px;
+}
+.food .cfood {
+  width: 24% !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 7px;
+}
+.spaghetti {
+  width: 20% !important;
+}
+.twist {
+  width: 42.9% !important;
+}
+.brand p {
+  color: rgb(90, 61, 48) !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  font-weight: 500 !important;
+}
+.brand {
+  border: 1px solid #f4f7dc !important;
+  height: 320px !important;
+  margin-top: 30px !important;
+}
+.brand button {
+  background-color: #7ca43e !important;
+}
+.brand button a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.gpn p {
+  width: 88% !important;
+}
+.gpn-box {
+  height: 300px !important;
+}
+.gpjhhn-img {
+  margin-top: 10px;
+}
+.gpjhhn {
+  margin-top: 35px !important;
+}
+.flour {
+  width: 48% !important;
+}
+.flour1 {
+  width: 36% !important;
+}
+.view-a {
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 16px;
+  color: rgb(113, 113, 113);
+  position: absolute;
+  top: 92%;
+  left: 57%;
+}
+/*End of Our Brands Added style*/
+
+/*Section 1 style*/
+.slider {
+  position: relative;
+  width: 100%;
+  height: 89vh;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease, filter 3s ease;
+  filter: blur(10px);
+}
+.slide.active {
+  opacity: 1;
+  filter: blur(0);
+}
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.861);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.text img {
+  width: 100%;
+  margin-left: 20px;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) color white;
+  font-size: 1.2rem;
+  background-color: rgba(255, 0, 255, 0.5);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 0, 255, 0.8);
+}
+
+/*Section 2 style*/
+.sec-sect {
+  background-color: #fbfae8;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.sec-sect h2 {
+  color: #5a3d30;
+  margin-bottom: 20px;
+}
+.sec-sect button {
+  animation: slide;
+  animation-timeline: view(70% 5%);
+}
+.sec-sect p {
+  width: 91%;
+  font-size: 15px;
+  color: rgb(83, 82, 82);
+}
+.read-btn a {
+  color: white;
+}
+.sec-sect .peper {
+  width: 5% !important;
+  position: absolute;
+  top: 93%;
+}
+.sec-sect img {
+  width: 36%;
+  margin-left: 20px;
+}
+/*Section 3 style*/
+.third-sect {
+  text-align: center;
+  margin-top: 40px;
+}
+.third-sect .h4s {
+  margin: 30px 20px 0 20px;
+}
+.third-sect .background {
+  padding-bottom: 50px;
+  background: linear-gradient(to right, green, greenyellow);
+}
+.third-sect .box {
+  background-color: white;
+  overflow: hidden;
+  margin: 20px 10px;
+  width: 23%;
+  padding: 10px;
+  border-radius: 8px;
+}
+.third-sect .spag {
+  width: 29%;
+}
+.third-sect .mac {
+  width: 62%;
+}
+.third-sect button {
+  padding: 10px;
+  width: 90%;
+  background-color: rgb(237, 237, 13);
+  border-radius: 5px;
+  margin: 25px 0 15px 0;
+}
+.third-sect p {
+  margin-top: 30px;
+  color: green;
+}
+.third-sect button a {
+  color: rgb(67, 66, 66);
+  font-weight: 600;
+  font-size: 16px;
+}
+.third-sect .view {
+  margin-top: 20px;
+}
+.third-sect .view a {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+  padding: 0 0 3px 0;
+}
+.third-sect img {
+  width: 350px;
+}
+/*Section 4 style*/
+.four-sect {
+  padding: 60px 20px 40px 20px;
+  background-color: beige;
+}
+.four-sect .box {
+  border-radius: 5px;
+  background-color: #fff;
+  width: 32%;
+  padding: 0 0 20px 0;
+  overflow: hidden;
+}
+.four-sect .box p {
+  margin-bottom: 5px;
+}
+.four-sect .box h5 {
+  margin: 20px 0 10px 20px;
+}
+.four-sect .box h5 a {
+  color: rgba(255, 136, 0, 0.963);
+}
+.four-sect .box p a {
+  font-size: 12px;
+  background-color: rgba(25, 108, 25, 0.95);
+}
+.four-sect img {
+  width: 100%;
+  height: 350px;
+  object-position: left;
+  object-fit: cover;
+}
+
+/*Section 5 style*/
+.fifth-sect {
+  background-color: #fbfae8;
+  text-align: center;
+}
+.fifth-sect input[type="email"] {
+  width: 50%;
+  padding: 12px;
+  margin: 30px 5px 60px 0;
+  border: 1px solid rgba(128, 128, 128, 0.858);
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+}
+.fifth-sect .find-btn {
+  background-color: #7ca43e;
+  padding: 20px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.fifth-sect .find-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.fifth-sect .send {
+  background-color: rgb(4, 185, 4);
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  color: grey;
+  background-color: black;
+  padding: 10px 60px;
+}
+footer p {
+  width: 400px;
+  line-height: 26px;
+  font-size: 0.9rem;
+  margin: 20px 0;
+}
+footer h5 {
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*Css image Property*/
+.pastas {
+  background: green;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  z-index: -1;
+  margin-top: 10px;
+  left: 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.h4s {
+  cursor: pointer;
+}
+#none {
+  display: none;
+}
+.p1 {
+  font-weight: 600;
+  color: white !important;
+  text-transform: uppercase;
+}

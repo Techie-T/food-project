@@ -1,0 +1,130 @@
+@media (width <= 800px) {
+  .sec-sect {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .sec-sect img {
+    width: 100%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .h4s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .third-sect .box {
+    margin: 20px 15px;
+    width: 95%;
+    padding: 10px;
+  }
+  .third-sect .spag {
+    width: 10%;
+  }
+  .third-sect .mac {
+    width: 20%;
+  }
+  .four-sect .box {
+    width: 98%;
+    margin-bottom: 20px;
+  }
+  .head img {
+    width: 60%;
+  }
+  .menu-wrap {
+    width: 30%;
+  }
+  .head {
+    display: flex;
+    flex-direction: row;
+  }
+  .pastas {
+    display: none;
+  }
+  .flexed {
+    flex-direction: column;
+  }
+  .flexs {
+    flex-direction: column;
+  }
+  .abt {
+    padding-left: 20px;
+  }
+  .sec-sect {
+    text-align: center;
+  }
+  .sec-sect p {
+    width: 100%;
+  }
+  .sec-sect .peper {
+    width: 10% !important;
+    left: 0;
+    top: 97%;
+  }
+  .sec-sect button {
+    margin-bottom: 60px;
+  }
+  .wrapper {
+    top: 60%;
+    width: 100%;
+    left: 0%;
+  }
+  .menu-wrap {
+    width: 25%;
+    height: 40px;
+  }
+  .head img {
+    width: 60%;
+  }
+  .heads .logo {
+    margin: 80px 0 0 40px;
+    width: 50%;
+  }
+  iframe {
+    height: 350px;
+  }
+  .food .cfood {
+    display: none;
+  }
+  .top img {
+    width: 19%;
+    height: 300px;
+  }
+  .paras {
+    margin: 35px 20px 10px 15px;
+  }
+  .spaghetti {
+    width: 13% !important;
+  }
+  .twist {
+    width: 28% !important;
+  }
+  .brand {
+    margin-top: 10px !important;
+    margin-left: 12px !important;
+  }
+  .food {
+    padding: 10px 0 30px 0;
+  }
+  .view-a {
+    top: 96.5%;
+    left: 40%;
+  }
+  .flour {
+    width: 28% !important;
+  }
+  .flour1 {
+    width: 22% !important;
+  }
+  .our {
+    left: 25%;
+  }
+  .gpjhhn-img {
+    width: 42% !important;
+  }
+  .gp {
+    width: 40% !important;
+  }
+}

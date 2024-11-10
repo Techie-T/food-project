@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden Penny website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="stylesheet" href="animate.css" />
+  </head>
+  <body class="body">
+    <header class="bg-black">
+      <nav>
+        <ul class="sidebar">
+          <li id="cancel" class="transition" onclick="hideSideBar()">X</li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT US</a></li>
+          <li class="media">
+            OUR BRANDS
+            <div class="dot" onclick="openBrands()">...</div>
+            <span onclick="closeBrands()" id="x">X</span>
+          </li>
+
+          <ul class="hidden-nav brands">
+            <li><a>Pasta</a></li>
+            <li><a>Noodles</a></li>
+            <li><a>ball-food</a></li>
+            <li><a>Flour</a></li>
+            <li><a>Sugar</a></li>
+            <li><a>Cereal</a></li>
+            <li><a>Oil And Spreads</a></li>
+          </ul>
+
+          <li><a href="">RECIPES</a></li>
+
+          <li class="media">
+            MEDIA
+            <div class="dots" onclick="openMedia()">...</div>
+            <span onclick="closeMedia()" id="ex">X</span>
+          </li>
+
+          <ul class="hidden-nav medias">
+            <li><a>Gallery</a></li>
+          </ul>
+
+          <li><a href="">STORE LOCATOR</a></li>
+
+          <li class="media">
+            CONTACT US
+            <div class="dotes" onclick="openContact()">...</div>
+            <span onclick="closeContact()" id="exs">X</span>
+          </li>
+
+          <ul class="hidden-nav contact">
+            <li><a>Other enquires</a></li>
+          </ul>
+
+          <li><a href="">BLOG</a></li>
+        </ul>
+
+        <div class="flexes heads">
+          <a href=""
+            ><img
+              class="logo"
+              src="./img/golden-penny-logo.png"
+              alt="Golden Penny Logo"
+          /></a>
+
+          <div class="menu-wrap menu" onclick="showSideBar()">
+            <h2>Menu</h2>
+            <div class="menu-bar">
+              <span class="line first"></span>
+              <span class="line second"></span>
+              <span class="line third"></span>
+            </div>
+          </div>
+        </div>
+        <h1 class="header">About Us</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper relative1">
+        <div class="about">
+          <p>
+            Golden Penny is one of the largest food brands in Niger, offering
+            great tasting and nutritious products at affordable prices. Our
+            products are made from some of the finest raw materials and remian
+            the preferred choice amongst consumers and industrial users like
+            bakeries and confectioners.
+          </p>
+        </div>
+
+        <div class="about2">
+          <div class="flexed">
+            <div><h3 class="h30 heritage">Heritage</h3></div>
+            <div>
+              <p>
+                For generatios, families across Nigeria have continued to enjoy
+                the rich and fulfilling taste of our Golden Penny brands while
+                creating fond and lasting memories.
+              </p>
+
+              <p class="p2">
+                From our variety of prime wheat flour which remains a delight
+                for bakig to other family favourites like pasta, noodles,
+                cooking oils, sugar, margarine and spreads to several optiosn
+                for ball foods, including Garri, Golde Penny products remian the
+                ideal choice for great-tasting and nutritious food.
+              </p>
+            </div>
+          </div>
+
+          <div class="flexed">
+            <div>
+              <h3 class="h30">A rich history of quality and flavour</h3>
+            </div>
+            <div>
+              <p>
+                Every time consumers pick a pack of our products, they become a
+                part of a rich tradition of great taste and quality. This is
+                because, our commitment to creating healthy and nutritious meals
+                has always been a priority, and have remained so, since 1960
+                when Flour Mills of Nigeria Plc (FMN) was incorporated.
+              </p>
+
+              <p class="p2">
+                As pioneers in the foods and agro-allied space, FMN has
+                continued to make strategic investments in the food value chain
+                in Nigeria with the ambition of sourcing 100% of our raw
+                materials locally. Today, our food businesses are structured
+                around five key value chains, including Grains; oils & Fats;
+                Sugar; Feeds & Proteins, and Cassava Starches.
+              </p>
+            </div>
+          </div>
+
+          <iframe
+            width="905"
+            height="445"
+            src="https://www.youtube.com/embed/oXa-wG-_NQ4"
+            title="Corporate Video-Flour Mills of Nigeria PLC"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+
+          <div class="flexed">
+            <div>
+              <h3 class="h30">History of Flour Mills of Nigeria Plc</h3>
+            </div>
+            <div>
+              <p>
+                Our company started operations on the 29th of September 1960 as
+                the premier flour miller in Nigeria as envisioned by the
+                Founding Father, George Coumantaros. Since then, his dream to
+                provide Nigerian families with healthy products at affordable
+                prices has inspired our purpose of ‘Feeding the Nation, Everyday
+                and our drive to enrich lives and encourage healthy wellbeing.
+              </p>
+              <h2><a class="h30" href="#">Explore more of our history</a></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="fifth-sect relative1">
+        <div class="email else">
+          <h4 class="h30">GET A LOCATION NEARBY</h4>
+          <button class="find-btn"><a href="">FIND STORE LOCATIONS</a></button>
+        </div>
+
+        <div class="update">
+          <h4 class="h30">
+            GET UPDATES ON OUR LATEST PROJECTS, PROMOTIONS AND EVENTS
+          </h4>
+          <form>
+            <input type="email" placeholder="Please enter your email" />
+            <button class="send">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="flexs">
+        <div>
+          <h5>Disclaimer</h5>
+          <p>
+            Do not honour any request for payment to any personal account.
+            Contact us if you suspect any fraudlent activity or intention.
+          </p>
+        </div>
+        <div>
+          <h5>Reach Us</h5>
+          <ul>
+            <li><a href="">+2347056891000</a></li>
+            <li><a href="">+2347056892000</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Email</h5>
+          <ul>
+            <li>GOLDENPENNYFOODS@FMNPLC.COM</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Links</h5>
+          <ul>
+            <li><a href="">Our Brands</a></li>
+            <li><a href="">Recipes</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Corporate</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">The Board</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="center">
+        © 2020 FMN Plc. All rights Reserved | Privacy Policy | Cookies Policy |
+        Events Terms & Conditions
+      </div>
+    </footer>
+
+    <script>
+      function showSideBar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSideBar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+
+      function openBrands() {
+        const sidebar = document.querySelector(".brands");
+        const dot = document.querySelector(".dot");
+        const x = document.getElementById("x");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeBrands() {
+        const sidebar = document.querySelector(".brands");
+        const dot = document.querySelector(".dot");
+        const x = document.getElementById("x");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+
+      function openMedia() {
+        const sidebar = document.querySelector(".medias");
+        const dot = document.querySelector(".dots");
+        const x = document.getElementById("ex");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeMedia() {
+        const sidebar = document.querySelector(".medias");
+        const dot = document.querySelector(".dots");
+        const x = document.getElementById("ex");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+      function openContact() {
+        const sidebar = document.querySelector(".contact");
+        const dot = document.querySelector(".dotes");
+        const x = document.getElementById("exs");
+        x.style.display = "flex";
+        dot.style.display = "none";
+        sidebar.style.display = "flex";
+      }
+      function closeContact() {
+        const sidebar = document.querySelector(".contact");
+        const dot = document.querySelector(".dotes");
+        const x = document.getElementById("exs");
+        x.style.display = "none";
+        dot.style.display = "flex";
+        sidebar.style.display = "none";
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+nav h3:hover {
+  background-color: rgb(164, 76, 246);
+}
+.fa-bars:hover {
+  background-color: rgb(164, 76, 246);
+}
+.menu-wrap:hover .first {
+  width: 70%;
+  animation: infiniteAnimation 1s infinite alternate;
+}
+.menu-wrap:hover .second {
+  width: 100%;
+  animation: infinite 0.5s infinite alternate;
+}
+.menu-wrap:hover .third {
+  width: 80%;
+  animation: infiniteAnimation 1s infinite alternate;
+}
+@keyframes infiniteAnimation {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 60%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes infinite {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 60%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.read-btn:hover {
+  background-color: rgba(20, 197, 14, 0.808);
+}
+/*@keyframes disappear {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-200px) scale(0.1);
+  }
+}*/
+@keyframes slide {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes autoshow {
+  from {
+    transform: translateX(10px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.slidein {
+  animation: Slidein;
+  animation-timeline: view(70% 5%);
+}
+@keyframes Slidein {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
